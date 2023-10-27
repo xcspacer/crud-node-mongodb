@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Endpoints",
+    "dateExported": "2023-10-24T14:55:10.475Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6af5ce0f-720f-40c6-82cf-05c460cef4f1",
+            "colId": "bab16800-37c2-4479-b8c3-e1488c5f4850",
+            "containerId": "",
+            "name": "Update",
+            "url": "http://localhost:3000/user/{ID}",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2023-10-24T14:54:11.691Z",
+            "modified": "2023-10-24T14:54:11.691Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Silva Silva\",\n  \"email\": \"silva@silva.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "94cb1bbf-7e90-4be7-9407-137127617cbe",
+            "colId": "bab16800-37c2-4479-b8c3-e1488c5f4850",
+            "containerId": "",
+            "name": "Delete",
+            "url": "http://localhost:3000/user/{ID}",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-10-24T14:54:30.989Z",
+            "modified": "2023-10-24T14:54:30.989Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e5bbfc6f-d78f-4b4b-ae83-31fc08c4d218",
+            "colId": "bab16800-37c2-4479-b8c3-e1488c5f4850",
+            "containerId": "",
+            "name": "Save",
+            "url": "http://localhost:3000/user",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-10-24T14:54:39.186Z",
+            "modified": "2023-10-24T14:54:39.186Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Silva\",\n  \"email\": \"silva@silva.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "097dbc6c-35fc-40e5-a1c1-561ee2a34eed",
+            "colId": "bab16800-37c2-4479-b8c3-e1488c5f4850",
+            "containerId": "",
+            "name": "List",
+            "url": "http://localhost:3000/user",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-10-24T14:54:47.180Z",
+            "modified": "2023-10-24T14:54:47.180Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
